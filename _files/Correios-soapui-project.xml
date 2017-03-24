@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project activeEnvironment="Default" name="Correios" soapui-version="5.3.0" abortOnError="false" runType="SEQUENTIAL" id="076e2685-3a4b-4c03-944b-0ce41cacefcd" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" name="CalcPrecoPrazoWSSoap" type="wsdl" bindingName="{http://tempuri.org/}CalcPrecoPrazoWSSoap" soapVersion="1_1" anonymous="optional" definition="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx?wsdl" id="62cf9f68-2841-46b3-b70d-3fd681b5a872" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx?wsdl"><con:part><con:url>http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx?wsdl</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="CalcPrecoPrazo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nCdEmpresa" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sDsSenha" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="nCdServico" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCepOrigem" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCepDestino" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="nVlPeso" type="s:string"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nCdFormato" type="s:int"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlComprimento" type="s:decimal"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlAltura" type="s:decimal"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlLargura" type="s:decimal"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlDiametro" type="s:decimal"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCdMaoPropria" type="s:string"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlValorDeclarado" type="s:decimal"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCdAvisoRecebimento" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalcPrecoPrazoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CalcPrecoPrazoResult" type="tns:cResultado"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="cResultado">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Servicos" type="tns:ArrayOfCServico"/>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCServico">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="cServico" type="tns:cServico"/>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="cServico">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Codigo" type="s:int"/>
+          <s:element minOccurs="0" maxOccurs="1" name="Valor" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="PrazoEntrega" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="ValorMaoPropria" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="ValorAvisoRecebimento" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="ValorValorDeclarado" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="EntregaDomiciliar" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="EntregaSabado" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="Erro" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="MsgErro" type="s:string"/>
+          <s:element minOccurs="0" maxOccurs="1" name="ValorSemAdicionais" type="s:string"/>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CalcPrecoPrazoData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nCdEmpresa" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sDsSenha" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="nCdServico" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCepOrigem" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCepDestino" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="nVlPeso" type="s:string"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nCdFormato" type="s:int"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlComprimento" type="s:decimal"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlAltura" type="s:decimal"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlLargura" type="s:decimal"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlDiametro" type="s:decimal"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCdMaoPropria" type="s:string"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlValorDeclarado" type="s:decimal"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCdAvisoRecebimento" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sDtCalculo" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalcPrecoPrazoDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CalcPrecoPrazoDataResult" type="tns:cResultado"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalcPrecoPrazoRestricao">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nCdEmpresa" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sDsSenha" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="nCdServico" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCepOrigem" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCepDestino" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="nVlPeso" type="s:string"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nCdFormato" type="s:int"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlComprimento" type="s:decimal"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlAltura" type="s:decimal"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlLargura" type="s:decimal"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlDiametro" type="s:decimal"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCdMaoPropria" type="s:string"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlValorDeclarado" type="s:decimal"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCdAvisoRecebimento" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sDtCalculo" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalcPrecoPrazoRestricaoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CalcPrecoPrazoRestricaoResult" type="tns:cResultado"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalcPreco">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nCdEmpresa" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sDsSenha" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="nCdServico" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCepOrigem" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCepDestino" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="nVlPeso" type="s:string"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nCdFormato" type="s:int"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlComprimento" type="s:decimal"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlAltura" type="s:decimal"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlLargura" type="s:decimal"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlDiametro" type="s:decimal"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCdMaoPropria" type="s:string"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlValorDeclarado" type="s:decimal"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCdAvisoRecebimento" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalcPrecoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CalcPrecoResult" type="tns:cResultado"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalcPrecoData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nCdEmpresa" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sDsSenha" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="nCdServico" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCepOrigem" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCepDestino" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="nVlPeso" type="s:string"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nCdFormato" type="s:int"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlComprimento" type="s:decimal"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlAltura" type="s:decimal"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlLargura" type="s:decimal"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlDiametro" type="s:decimal"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCdMaoPropria" type="s:string"/>
+            <s:element minOccurs="1" maxOccurs="1" name="nVlValorDeclarado" type="s:decimal"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCdAvisoRecebimento" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sDtCalculo" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalcPrecoDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CalcPrecoDataResult" type="tns:cResultado"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalcPrazo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nCdServico" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCepOrigem" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCepDestino" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalcPrazoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CalcPrazoResult" type="tns:cResultado"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalcPrazoData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nCdServico" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCepOrigem" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCepDestino" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sDtCalculo" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalcPrazoDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CalcPrazoDataResult" type="tns:cResultado"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalcPrazoRestricao">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nCdServico" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCepOrigem" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sCepDestino" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="sDtCalculo" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalcPrazoRestricaoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CalcPrazoRestricaoResult" type="tns:cResultado"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="cResultado" type="tns:cResultado"/>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CalcPrecoPrazoSoapIn">
+    <wsdl:part name="parameters" element="tns:CalcPrecoPrazo"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoPrazoSoapOut">
+    <wsdl:part name="parameters" element="tns:CalcPrecoPrazoResponse"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoPrazoDataSoapIn">
+    <wsdl:part name="parameters" element="tns:CalcPrecoPrazoData"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoPrazoDataSoapOut">
+    <wsdl:part name="parameters" element="tns:CalcPrecoPrazoDataResponse"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoPrazoRestricaoSoapIn">
+    <wsdl:part name="parameters" element="tns:CalcPrecoPrazoRestricao"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoPrazoRestricaoSoapOut">
+    <wsdl:part name="parameters" element="tns:CalcPrecoPrazoRestricaoResponse"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoSoapIn">
+    <wsdl:part name="parameters" element="tns:CalcPreco"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoSoapOut">
+    <wsdl:part name="parameters" element="tns:CalcPrecoResponse"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoDataSoapIn">
+    <wsdl:part name="parameters" element="tns:CalcPrecoData"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoDataSoapOut">
+    <wsdl:part name="parameters" element="tns:CalcPrecoDataResponse"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrazoSoapIn">
+    <wsdl:part name="parameters" element="tns:CalcPrazo"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrazoSoapOut">
+    <wsdl:part name="parameters" element="tns:CalcPrazoResponse"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrazoDataSoapIn">
+    <wsdl:part name="parameters" element="tns:CalcPrazoData"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrazoDataSoapOut">
+    <wsdl:part name="parameters" element="tns:CalcPrazoDataResponse"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrazoRestricaoSoapIn">
+    <wsdl:part name="parameters" element="tns:CalcPrazoRestricao"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrazoRestricaoSoapOut">
+    <wsdl:part name="parameters" element="tns:CalcPrazoRestricaoResponse"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoPrazoHttpGetIn">
+    <wsdl:part name="nCdEmpresa" type="s:string"/>
+    <wsdl:part name="sDsSenha" type="s:string"/>
+    <wsdl:part name="nCdServico" type="s:string"/>
+    <wsdl:part name="sCepOrigem" type="s:string"/>
+    <wsdl:part name="sCepDestino" type="s:string"/>
+    <wsdl:part name="nVlPeso" type="s:string"/>
+    <wsdl:part name="nCdFormato" type="s:string"/>
+    <wsdl:part name="nVlComprimento" type="s:string"/>
+    <wsdl:part name="nVlAltura" type="s:string"/>
+    <wsdl:part name="nVlLargura" type="s:string"/>
+    <wsdl:part name="nVlDiametro" type="s:string"/>
+    <wsdl:part name="sCdMaoPropria" type="s:string"/>
+    <wsdl:part name="nVlValorDeclarado" type="s:string"/>
+    <wsdl:part name="sCdAvisoRecebimento" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoPrazoHttpGetOut">
+    <wsdl:part name="Body" element="tns:cResultado"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoPrazoDataHttpGetIn">
+    <wsdl:part name="nCdEmpresa" type="s:string"/>
+    <wsdl:part name="sDsSenha" type="s:string"/>
+    <wsdl:part name="nCdServico" type="s:string"/>
+    <wsdl:part name="sCepOrigem" type="s:string"/>
+    <wsdl:part name="sCepDestino" type="s:string"/>
+    <wsdl:part name="nVlPeso" type="s:string"/>
+    <wsdl:part name="nCdFormato" type="s:string"/>
+    <wsdl:part name="nVlComprimento" type="s:string"/>
+    <wsdl:part name="nVlAltura" type="s:string"/>
+    <wsdl:part name="nVlLargura" type="s:string"/>
+    <wsdl:part name="nVlDiametro" type="s:string"/>
+    <wsdl:part name="sCdMaoPropria" type="s:string"/>
+    <wsdl:part name="nVlValorDeclarado" type="s:string"/>
+    <wsdl:part name="sCdAvisoRecebimento" type="s:string"/>
+    <wsdl:part name="sDtCalculo" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoPrazoDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:cResultado"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoPrazoRestricaoHttpGetIn">
+    <wsdl:part name="nCdEmpresa" type="s:string"/>
+    <wsdl:part name="sDsSenha" type="s:string"/>
+    <wsdl:part name="nCdServico" type="s:string"/>
+    <wsdl:part name="sCepOrigem" type="s:string"/>
+    <wsdl:part name="sCepDestino" type="s:string"/>
+    <wsdl:part name="nVlPeso" type="s:string"/>
+    <wsdl:part name="nCdFormato" type="s:string"/>
+    <wsdl:part name="nVlComprimento" type="s:string"/>
+    <wsdl:part name="nVlAltura" type="s:string"/>
+    <wsdl:part name="nVlLargura" type="s:string"/>
+    <wsdl:part name="nVlDiametro" type="s:string"/>
+    <wsdl:part name="sCdMaoPropria" type="s:string"/>
+    <wsdl:part name="nVlValorDeclarado" type="s:string"/>
+    <wsdl:part name="sCdAvisoRecebimento" type="s:string"/>
+    <wsdl:part name="sDtCalculo" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoPrazoRestricaoHttpGetOut">
+    <wsdl:part name="Body" element="tns:cResultado"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoHttpGetIn">
+    <wsdl:part name="nCdEmpresa" type="s:string"/>
+    <wsdl:part name="sDsSenha" type="s:string"/>
+    <wsdl:part name="nCdServico" type="s:string"/>
+    <wsdl:part name="sCepOrigem" type="s:string"/>
+    <wsdl:part name="sCepDestino" type="s:string"/>
+    <wsdl:part name="nVlPeso" type="s:string"/>
+    <wsdl:part name="nCdFormato" type="s:string"/>
+    <wsdl:part name="nVlComprimento" type="s:string"/>
+    <wsdl:part name="nVlAltura" type="s:string"/>
+    <wsdl:part name="nVlLargura" type="s:string"/>
+    <wsdl:part name="nVlDiametro" type="s:string"/>
+    <wsdl:part name="sCdMaoPropria" type="s:string"/>
+    <wsdl:part name="nVlValorDeclarado" type="s:string"/>
+    <wsdl:part name="sCdAvisoRecebimento" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoHttpGetOut">
+    <wsdl:part name="Body" element="tns:cResultado"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoDataHttpGetIn">
+    <wsdl:part name="nCdEmpresa" type="s:string"/>
+    <wsdl:part name="sDsSenha" type="s:string"/>
+    <wsdl:part name="nCdServico" type="s:string"/>
+    <wsdl:part name="sCepOrigem" type="s:string"/>
+    <wsdl:part name="sCepDestino" type="s:string"/>
+    <wsdl:part name="nVlPeso" type="s:string"/>
+    <wsdl:part name="nCdFormato" type="s:string"/>
+    <wsdl:part name="nVlComprimento" type="s:string"/>
+    <wsdl:part name="nVlAltura" type="s:string"/>
+    <wsdl:part name="nVlLargura" type="s:string"/>
+    <wsdl:part name="nVlDiametro" type="s:string"/>
+    <wsdl:part name="sCdMaoPropria" type="s:string"/>
+    <wsdl:part name="nVlValorDeclarado" type="s:string"/>
+    <wsdl:part name="sCdAvisoRecebimento" type="s:string"/>
+    <wsdl:part name="sDtCalculo" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrecoDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:cResultado"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrazoHttpGetIn">
+    <wsdl:part name="nCdServico" type="s:string"/>
+    <wsdl:part name="sCepOrigem" type="s:string"/>
+    <wsdl:part name="sCepDestino" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrazoHttpGetOut">
+    <wsdl:part name="Body" element="tns:cResultado"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrazoDataHttpGetIn">
+    <wsdl:part name="nCdServico" type="s:string"/>
+    <wsdl:part name="sCepOrigem" type="s:string"/>
+    <wsdl:part name="sCepDestino" type="s:string"/>
+    <wsdl:part name="sDtCalculo" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrazoDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:cResultado"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrazoRestricaoHttpGetIn">
+    <wsdl:part name="nCdServico" type="s:string"/>
+    <wsdl:part name="sCepOrigem" type="s:string"/>
+    <wsdl:part name="sCepDestino" type="s:string"/>
+    <wsdl:part name="sDtCalculo" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="CalcPrazoRestricaoHttpGetOut">
+    <wsdl:part name="Body" element="tns:cResultado"/>
+  </wsdl:message>
+  <wsdl:portType name="CalcPrecoPrazoWSSoap">
+    <wsdl:operation name="CalcPrecoPrazo">
+      <wsdl:input message="tns:CalcPrecoPrazoSoapIn"/>
+      <wsdl:output message="tns:CalcPrecoPrazoSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrecoPrazoData">
+      <wsdl:input message="tns:CalcPrecoPrazoDataSoapIn"/>
+      <wsdl:output message="tns:CalcPrecoPrazoDataSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrecoPrazoRestricao">
+      <wsdl:input message="tns:CalcPrecoPrazoRestricaoSoapIn"/>
+      <wsdl:output message="tns:CalcPrecoPrazoRestricaoSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPreco">
+      <wsdl:input message="tns:CalcPrecoSoapIn"/>
+      <wsdl:output message="tns:CalcPrecoSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrecoData">
+      <wsdl:input message="tns:CalcPrecoDataSoapIn"/>
+      <wsdl:output message="tns:CalcPrecoDataSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrazo">
+      <wsdl:input message="tns:CalcPrazoSoapIn"/>
+      <wsdl:output message="tns:CalcPrazoSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrazoData">
+      <wsdl:input message="tns:CalcPrazoDataSoapIn"/>
+      <wsdl:output message="tns:CalcPrazoDataSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrazoRestricao">
+      <wsdl:input message="tns:CalcPrazoRestricaoSoapIn"/>
+      <wsdl:output message="tns:CalcPrazoRestricaoSoapOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="CalcPrecoPrazoWSHttpGet">
+    <wsdl:operation name="CalcPrecoPrazo">
+      <wsdl:input message="tns:CalcPrecoPrazoHttpGetIn"/>
+      <wsdl:output message="tns:CalcPrecoPrazoHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrecoPrazoData">
+      <wsdl:input message="tns:CalcPrecoPrazoDataHttpGetIn"/>
+      <wsdl:output message="tns:CalcPrecoPrazoDataHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrecoPrazoRestricao">
+      <wsdl:input message="tns:CalcPrecoPrazoRestricaoHttpGetIn"/>
+      <wsdl:output message="tns:CalcPrecoPrazoRestricaoHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPreco">
+      <wsdl:input message="tns:CalcPrecoHttpGetIn"/>
+      <wsdl:output message="tns:CalcPrecoHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrecoData">
+      <wsdl:input message="tns:CalcPrecoDataHttpGetIn"/>
+      <wsdl:output message="tns:CalcPrecoDataHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrazo">
+      <wsdl:input message="tns:CalcPrazoHttpGetIn"/>
+      <wsdl:output message="tns:CalcPrazoHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrazoData">
+      <wsdl:input message="tns:CalcPrazoDataHttpGetIn"/>
+      <wsdl:output message="tns:CalcPrazoDataHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrazoRestricao">
+      <wsdl:input message="tns:CalcPrazoRestricaoHttpGetIn"/>
+      <wsdl:output message="tns:CalcPrazoRestricaoHttpGetOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CalcPrecoPrazoWSSoap" type="tns:CalcPrecoPrazoWSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+    <wsdl:operation name="CalcPrecoPrazo">
+      <soap:operation soapAction="http://tempuri.org/CalcPrecoPrazo" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrecoPrazoData">
+      <soap:operation soapAction="http://tempuri.org/CalcPrecoPrazoData" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrecoPrazoRestricao">
+      <soap:operation soapAction="http://tempuri.org/CalcPrecoPrazoRestricao" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPreco">
+      <soap:operation soapAction="http://tempuri.org/CalcPreco" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrecoData">
+      <soap:operation soapAction="http://tempuri.org/CalcPrecoData" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrazo">
+      <soap:operation soapAction="http://tempuri.org/CalcPrazo" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrazoData">
+      <soap:operation soapAction="http://tempuri.org/CalcPrazoData" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrazoRestricao">
+      <soap:operation soapAction="http://tempuri.org/CalcPrazoRestricao" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CalcPrecoPrazoWSHttpGet" type="tns:CalcPrecoPrazoWSHttpGet">
+    <http:binding verb="GET"/>
+    <wsdl:operation name="CalcPrecoPrazo">
+      <http:operation location="/CalcPrecoPrazo"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrecoPrazoData">
+      <http:operation location="/CalcPrecoPrazoData"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrecoPrazoRestricao">
+      <http:operation location="/CalcPrecoPrazoRestricao"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPreco">
+      <http:operation location="/CalcPreco"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrecoData">
+      <http:operation location="/CalcPrecoData"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrazo">
+      <http:operation location="/CalcPrazo"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrazoData">
+      <http:operation location="/CalcPrazoData"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CalcPrazoRestricao">
+      <http:operation location="/CalcPrazoRestricao"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CalcPrecoPrazoWS">
+    <wsdl:port name="CalcPrecoPrazoWSSoap" binding="tns:CalcPrecoPrazoWSSoap">
+      <soap:address location="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="CalcPrecoPrazoWSHttpGet" binding="tns:CalcPrecoPrazoWSHttpGet">
+      <http:address location="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx</con:endpoint></con:endpoints><con:operation isOneWay="false" action="http://tempuri.org/CalcPrazo" name="CalcPrazo" bindingOperationName="CalcPrazo" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="cfb20bc2-8fa3-40eb-8c32-37c9ad4f1bdb"><con:settings/><con:call name="Request 1" id="f6633078-97a4-48cb-a196-05b477389f3f"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:CalcPrazo>
+         <!--Optional:-->
+         <tem:nCdServico>?</tem:nCdServico>
+         <!--Optional:-->
+         <tem:sCepOrigem>?</tem:sCepOrigem>
+         <!--Optional:-->
+         <tem:sCepDestino>?</tem:sCepDestino>
+      </tem:CalcPrazo>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/CalcPrazo"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="http://tempuri.org/CalcPrazoData" name="CalcPrazoData" bindingOperationName="CalcPrazoData" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="9eaffbf2-bc6e-48d1-8c30-a84165762b7e"><con:settings/><con:call name="Request 1" id="42371123-dd31-4f58-ad04-ba133f55f752"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:CalcPrazoData>
+         <!--Optional:-->
+         <tem:nCdServico>?</tem:nCdServico>
+         <!--Optional:-->
+         <tem:sCepOrigem>?</tem:sCepOrigem>
+         <!--Optional:-->
+         <tem:sCepDestino>?</tem:sCepDestino>
+         <!--Optional:-->
+         <tem:sDtCalculo>?</tem:sDtCalculo>
+      </tem:CalcPrazoData>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/CalcPrazoData"/></con:call></con:operation><con:operation isOneWay="false" action="http://tempuri.org/CalcPrazoRestricao" name="CalcPrazoRestricao" bindingOperationName="CalcPrazoRestricao" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="897cc0ed-5537-48b7-ba05-b76b2b289079"><con:settings/><con:call name="Request 1" id="1567284a-ef76-4e3a-8e7c-051bed5551fc"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:CalcPrazoRestricao>
+         <!--Optional:-->
+         <tem:nCdServico>?</tem:nCdServico>
+         <!--Optional:-->
+         <tem:sCepOrigem>?</tem:sCepOrigem>
+         <!--Optional:-->
+         <tem:sCepDestino>?</tem:sCepDestino>
+         <!--Optional:-->
+         <tem:sDtCalculo>?</tem:sDtCalculo>
+      </tem:CalcPrazoRestricao>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/CalcPrazoRestricao"/></con:call></con:operation><con:operation isOneWay="false" action="http://tempuri.org/CalcPreco" name="CalcPreco" bindingOperationName="CalcPreco" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="41cafaab-b7a2-44a8-b2c2-fae4713f5290"><con:settings/><con:call name="Request 1" id="65b66c0a-2554-47b1-99ea-9d726d516e3c"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:CalcPreco>
+         <!--Optional:-->
+         <tem:nCdEmpresa>?</tem:nCdEmpresa>
+         <!--Optional:-->
+         <tem:sDsSenha>?</tem:sDsSenha>
+         <!--Optional:-->
+         <tem:nCdServico>?</tem:nCdServico>
+         <!--Optional:-->
+         <tem:sCepOrigem>?</tem:sCepOrigem>
+         <!--Optional:-->
+         <tem:sCepDestino>?</tem:sCepDestino>
+         <!--Optional:-->
+         <tem:nVlPeso>?</tem:nVlPeso>
+         <tem:nCdFormato>?</tem:nCdFormato>
+         <tem:nVlComprimento>?</tem:nVlComprimento>
+         <tem:nVlAltura>?</tem:nVlAltura>
+         <tem:nVlLargura>?</tem:nVlLargura>
+         <tem:nVlDiametro>?</tem:nVlDiametro>
+         <!--Optional:-->
+         <tem:sCdMaoPropria>?</tem:sCdMaoPropria>
+         <tem:nVlValorDeclarado>?</tem:nVlValorDeclarado>
+         <!--Optional:-->
+         <tem:sCdAvisoRecebimento>?</tem:sCdAvisoRecebimento>
+      </tem:CalcPreco>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/CalcPreco"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="http://tempuri.org/CalcPrecoData" name="CalcPrecoData" bindingOperationName="CalcPrecoData" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="264055c2-ffbd-4e11-8dad-7567b915413c"><con:settings/><con:call name="Request 1" id="6d7938a9-0bea-4340-a9f2-778ac5e102a2"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:CalcPrecoData>
+         <!--Optional:-->
+         <tem:nCdEmpresa>?</tem:nCdEmpresa>
+         <!--Optional:-->
+         <tem:sDsSenha>?</tem:sDsSenha>
+         <!--Optional:-->
+         <tem:nCdServico>?</tem:nCdServico>
+         <!--Optional:-->
+         <tem:sCepOrigem>?</tem:sCepOrigem>
+         <!--Optional:-->
+         <tem:sCepDestino>?</tem:sCepDestino>
+         <!--Optional:-->
+         <tem:nVlPeso>?</tem:nVlPeso>
+         <tem:nCdFormato>?</tem:nCdFormato>
+         <tem:nVlComprimento>?</tem:nVlComprimento>
+         <tem:nVlAltura>?</tem:nVlAltura>
+         <tem:nVlLargura>?</tem:nVlLargura>
+         <tem:nVlDiametro>?</tem:nVlDiametro>
+         <!--Optional:-->
+         <tem:sCdMaoPropria>?</tem:sCdMaoPropria>
+         <tem:nVlValorDeclarado>?</tem:nVlValorDeclarado>
+         <!--Optional:-->
+         <tem:sCdAvisoRecebimento>?</tem:sCdAvisoRecebimento>
+         <!--Optional:-->
+         <tem:sDtCalculo>?</tem:sDtCalculo>
+      </tem:CalcPrecoData>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/CalcPrecoData"/></con:call></con:operation><con:operation isOneWay="false" action="http://tempuri.org/CalcPrecoPrazo" name="CalcPrecoPrazo" bindingOperationName="CalcPrecoPrazo" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="72629cef-2e3f-4790-b64a-29622249318f"><con:settings/><con:call name="Request 1" id="5c677778-6bb0-4d86-8957-c497d9244f79"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:CalcPrecoPrazo>
+         <!--Optional:-->
+         <tem:nCdEmpresa></tem:nCdEmpresa>
+         <!--Optional:-->
+         <tem:sDsSenha></tem:sDsSenha>
+         <!--Optional:-->
+         <tem:nCdServico>41106</tem:nCdServico>
+         <!--Optional:-->
+         <tem:sCepOrigem>09780260</tem:sCepOrigem>
+         <!--Optional:-->
+         <tem:sCepDestino>09112000</tem:sCepDestino>
+         <!--Optional:-->
+         <tem:nVlPeso>0.05</tem:nVlPeso>
+         <tem:nCdFormato>1</tem:nCdFormato>
+         <tem:nVlComprimento>16</tem:nVlComprimento>
+         <tem:nVlAltura>2</tem:nVlAltura>
+         <tem:nVlLargura>11</tem:nVlLargura>
+         <tem:nVlDiametro>0</tem:nVlDiametro>
+         <!--Optional:-->
+         <tem:sCdMaoPropria>N</tem:sCdMaoPropria>
+         <tem:nVlValorDeclarado>0</tem:nVlValorDeclarado>
+         <!--Optional:-->
+         <tem:sCdAvisoRecebimento>N</tem:sCdAvisoRecebimento>
+      </tem:CalcPrecoPrazo>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/CalcPrecoPrazo"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="http://tempuri.org/CalcPrecoPrazoData" name="CalcPrecoPrazoData" bindingOperationName="CalcPrecoPrazoData" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="e6c9eff9-dd7b-404e-b320-36c3a6134074"><con:settings/><con:call name="Request 1" id="b6fb49c4-4bb7-49d9-9a09-9e122ae93f9e"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:CalcPrecoPrazoData>
+         <!--Optional:-->
+         <tem:nCdEmpresa>?</tem:nCdEmpresa>
+         <!--Optional:-->
+         <tem:sDsSenha>?</tem:sDsSenha>
+         <!--Optional:-->
+         <tem:nCdServico>?</tem:nCdServico>
+         <!--Optional:-->
+         <tem:sCepOrigem>?</tem:sCepOrigem>
+         <!--Optional:-->
+         <tem:sCepDestino>?</tem:sCepDestino>
+         <!--Optional:-->
+         <tem:nVlPeso>?</tem:nVlPeso>
+         <tem:nCdFormato>?</tem:nCdFormato>
+         <tem:nVlComprimento>?</tem:nVlComprimento>
+         <tem:nVlAltura>?</tem:nVlAltura>
+         <tem:nVlLargura>?</tem:nVlLargura>
+         <tem:nVlDiametro>?</tem:nVlDiametro>
+         <!--Optional:-->
+         <tem:sCdMaoPropria>?</tem:sCdMaoPropria>
+         <tem:nVlValorDeclarado>?</tem:nVlValorDeclarado>
+         <!--Optional:-->
+         <tem:sCdAvisoRecebimento>?</tem:sCdAvisoRecebimento>
+         <!--Optional:-->
+         <tem:sDtCalculo>?</tem:sDtCalculo>
+      </tem:CalcPrecoPrazoData>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/CalcPrecoPrazoData"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="http://tempuri.org/CalcPrecoPrazoRestricao" name="CalcPrecoPrazoRestricao" bindingOperationName="CalcPrecoPrazoRestricao" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="6178a19c-6f5a-4a2f-8813-1e51dc500213"><con:settings/><con:call name="Request 1" id="5944e7b2-10ef-45d4-9d36-a2fe76b6cd82"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:CalcPrecoPrazoRestricao>
+         <!--Optional:-->
+         <tem:nCdEmpresa>?</tem:nCdEmpresa>
+         <!--Optional:-->
+         <tem:sDsSenha>?</tem:sDsSenha>
+         <!--Optional:-->
+         <tem:nCdServico>?</tem:nCdServico>
+         <!--Optional:-->
+         <tem:sCepOrigem>?</tem:sCepOrigem>
+         <!--Optional:-->
+         <tem:sCepDestino>?</tem:sCepDestino>
+         <!--Optional:-->
+         <tem:nVlPeso>?</tem:nVlPeso>
+         <tem:nCdFormato>?</tem:nCdFormato>
+         <tem:nVlComprimento>?</tem:nVlComprimento>
+         <tem:nVlAltura>?</tem:nVlAltura>
+         <tem:nVlLargura>?</tem:nVlLargura>
+         <tem:nVlDiametro>?</tem:nVlDiametro>
+         <!--Optional:-->
+         <tem:sCdMaoPropria>?</tem:sCdMaoPropria>
+         <tem:nVlValorDeclarado>?</tem:nVlValorDeclarado>
+         <!--Optional:-->
+         <tem:sCdAvisoRecebimento>?</tem:sCdAvisoRecebimento>
+         <!--Optional:-->
+         <tem:sDtCalculo>?</tem:sDtCalculo>
+      </tem:CalcPrecoPrazoRestricao>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/CalcPrecoPrazoRestricao"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>

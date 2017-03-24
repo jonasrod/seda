@@ -1,0 +1,52 @@
+Endereço: www.sedaerotica.com.br/cpanel
+Usuário: sedaerot
+Senha: gilseda123
+
+Endereço: ftp.sedaerotica.com.br ou pelo IP 108.163.169.226.
+Usuário: sedaerot
+Senha: videx8227
+
+gilseda123
+
+
+banco porta 2007
+
+
+Pagseguro
+casagil@ig.com.br
+Senha
+999171190@
+Sandbox
+c77414624106353754304@sandbox.pagseguro.com.br
+X85379C737171382
+Cartão Teste
+4111111111111111
+Bandeira: VISA Válido até: 12/2030 CVV: 123
+
+
+
+SIGEPWEB
+cod. administrativo: 14201151
+senha: 19380699
+
+webservice
+Usuário: sedaerotica
+Senha: wuhsrc
+
+cartão de postagem
+0069223467
+0069223483
+
+
+
+WSDL original sigepweb
+https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente?wsdl
+
+
+
+Cielo
+https://cieloecommerce.cielo.com.br/Backoffice/
+Email: seda@sedaerotica.com.br
+Senha: gilseda123
+MID: 0bccb523-809b-4804-a7ae-5f70df33ef98
+ID:  1061608147

@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title> eCommerce Responsive Theme - StyleShop</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800,700,300' rel='stylesheet' type='text/css'>
+
+<!-- styles -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/docs.css" rel="stylesheet">
+<link href="js/google-code-prettify/prettify.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+<!-- Slider -->
+<link rel="stylesheet" href="css/default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+
+<!-- Icon -->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- fav and touch icons -->
+<link rel="shortcut icon" href="images/favicon.png">
+<style>
+
+.form-horizontal .control-label {
+    float: left;
+    padding-top: 5px;
+    text-align: right;
+    width: 160px;
+}
+.form-horizontal .controls {
+    margin-left: 180px;
+}
+</style>
+</head>
+<body>
+<!-- Header Start -->
+<header>
+  <!-- Sticky Navbar Start -->
+  <div id="main-nav" class="navbar navbar-fixed-top">
+    <div class="container">
+      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+      <ul class="nav">
+          <li><a href="#"><i class="icon-envelope"></i> xyz@company.com</a></li>
+          <li><a href="#"><i class="icon-phone-sign"></i> +91 00 0000 000</a></li>          
+      </ul>
+      <nav style="height:0px" class="nav-collapse collapse">
+        <ul class="nav pull-right">
+          <li><a href="index.html"><i class="icon-home"></i></a></li>
+          <li><a href="shopping-cart.html">Shopping Cart</a></li>
+          <li class="dropdown hover"><a data-toggle="" class="dropdown-toggle" href="login.html">Login <b class="caret"></b></a>
+          	<ul class="dropdown-menu topcart">
+            	<li style="padding:10px;">
+            		<input type="text" class="input-medium" placeholder="Username">
+                  	<input type="password" class="input-medium" placeholder="Password">
+                  	<button type="submit" class="btn btn-success">Login</button>
+            	</li>
+          	</ul>
+          </li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="contacts.html">Feedback</a></li>
+       </ul>
+      </nav>
+    </div>
+  </div>
+  <!--Sticky Navbar End -->
+  
+  <div class="header-white">
+    <div class="container">
+      <div class="row">
+        <div class="span4">
+          <a href="index.html" class="logo"><img title="Ecommerce" alt="Ecommerce" src="images/logo.png"></a>
+        </div>
+        <div class="span8">
+          <div class="row">
+            <div class="pull-right logintext">Welcome Guest,  you can <a href="login.html">login </a>
+              or <a href="register.html">create an account</a>
+            </div>
+          </div>
+         <form class="form-search marginnull topsearch pull-right">
+          <div class="span6 pull-left">
+          <button value="Search" class="btn btn-success pull-right search" type="submit">Search</button>
+<input type="text" class="span5 search-query search-icon-top pull-right" value="Search here..." onfocus="if (this.value=='Search here...') this.value='';" onblur="if (this.value=='') this.value='Search here...';">
+</div>
+          <div class="pull-right ml5"><a data-toggle="modal" href="#myModal" class="btn btn-info pull-right"><i class="icon-shopping-cart"></i> Cart (0)</a></div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Navigation Start -->
+    <div  id="categorymenu">
+      <div class="container">
+        <nav class="subnav">
+          <ul class="nav-pills categorymenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a>
+              <div>
+                <ul class="arrow">
+                  <li class="category"><a href="product.html">Full width Product</a></li>
+                  <li><a href="product.html"> Watch</a></li>
+                  <li><a href="product.html"> Suits & shirts</a></li>
+                  <li><a href="product.html"> Shoes</a></li>
+                  <li><a href="product.html">Jackets & Coats</a></li>
+                  <li><a href="product.html">Mice and Trackballs</a></li>
+                  <li><a href="product.html">Laptops </a></li>
+                </ul>
+                <ul class="arrow">
+                  <li class="category"><a href="product-sidebar.html">Product with Sidebar</a></li>
+                  <li><a href="product-sidebar.html">Watch</a></li>
+                  <li><a href="product-sidebar.html">Suits & shirts</a></li>
+                  <li><a href="product-sidebar.html">Shoes</a></li>
+                  <li><a href="product-sidebar.html">Jackets & Coats</a></li>
+                  <li><a href="product-sidebar.html">Mice and Trackballs</a></li>
+                  <li><a href="product-sidebar.html">Laptops </a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="category.html">Stores</a>
+              <div>
+                <ul class="arrow">
+                  <li><a class="bold" href="category.html">Full Width Category</a></li>
+                  <li><a class="bold" href="category-sidebar.html">Category with Sidebar</a></li>
+                  <li><a href="#">Mens</a></li>
+                  <li><a href="#">Womens</a></li>
+                  <li><a href="#">Childrens</a></li>
+                  <li><a href="#">Home and Furniture</a></li>
+                  <li><a href="#">Electric Appliances</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="shopping-cart.html">Shopping Cart</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+            <li><a href="compare.html">Compare</a></li></li>
+            <li><a href="#">My Account</a>
+            <div>
+                <ul class="arrow">
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="register.html">Register</a></li>
+                  <li><a href="wishlist.html">Wishlist</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a class="active" href="#">Features</a>
+            	<div>
+                <ul class="arrow">
+                  <li><a href="typography.html">Typography</a></li>
+                  <li><a href="form-element.html">Form Elements</a></li>
+                  <li><a href="buttons.html">Buttons</a></li>
+                  <li><a href="javascripts.html">Javascripts</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Speciality Pages</a>
+            	<div>
+                <ul class="arrow">
+                  <li><a href="404-error.html">404 Error</a></li>
+                  <li><a href="500-error.html">500 Error</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="contacts.html">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- Navigation Ends -->
+  </div>
+</header>
+<!-- Header Ends -->
+<!--Content starts-->
+<div id="maincontainer">
+	<div class="container">
+    <ul class="breadcrumb">
+        <li><a href="#">Home</a><span class="divider">/</span></li>
+        <li class="active">Features</li>
+      </ul>
+      <h1 class="productname">Form Elements</h1>
+ 		<section id="forms">
+      <div class="row">
+        <div class="span4">
+          <p>Bootstrap features styles for browser-supported focused and <code>disabled</code> states. We remove the default Webkit <code>outline</code> and apply a <code>box-shadow</code> in its place for <code>:focus</code>.</p>
+          <hr>
+          <h3>Form validation</h3>
+          <p>It also includes validation styles for errors, warnings, and success. To use, add the error class to the surrounding <code>.control-group</code>.</p>
+          <div class="prettyprint linenums">
+            <ol class="linenums">
+              <li class="L0"><span class="tag">&lt;fieldset</span></li>
+              <li class="L1"><span class="pln">
+                </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"control-group error"</span><span class="tag">&gt;</span></li>
+              <li class="L2"><span class="pln"> …</span></li>
+              <li class="L3"><span class="tag">&lt;/fieldset&gt;</span></li>
+            </ol>
+          </div>
+        </div>
+        <div class="span8">
+          <form class="form-horizontal">
+            <fieldset>
+              <div class="control-group">
+                <label class="control-label" for="focusedInput">Focused input</label>
+                <div class="controls">
+                  <input type="text" class="input-xlarge focused" id="focusedInput" value="This is focused…">
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">Uneditable input</label>
+                <div class="controls">
+                  <span class="input-xlarge uneditable-input">Some value here</span>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="disabledInput">Disabled input</label>
+                <div class="controls">
+                  <input type="text" class="input-xlarge disabled" id="disabledInput" placeholder="Disabled input here…" disabled="">
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="optionsCheckbox2">Disabled checkbox</label>
+                <div class="controls">
+                  <label class="checkbox">
+                    <input type="checkbox" id="optionsCheckbox2" value="option1" disabled="">
+                    This is a disabled checkbox </label>
+                </div>
+              </div>
+              <div class="control-group warning">
+                <label class="control-label" for="inputWarning">Input with warning</label>
+                <div class="controls">
+                  <input type="text" id="inputWarning">
+                  <span class="help-inline">Something may have gone wrong</span>
+                </div>
+              </div>
+              <div class="control-group error">
+                <label class="control-label" for="inputError">Input with error</label>
+                <div class="controls">
+                  <input type="text" id="inputError">
+                  <span class="help-inline">Please correct the error</span>
+                </div>
+              </div>
+              <div class="control-group success">
+                <label class="control-label" for="inputSuccess">Input with success</label>
+                <div class="controls">
+                  <input type="text" id="inputSuccess">
+                  <span class="help-inline">Woohoo!</span>
+                </div>
+              </div>
+              <div class="control-group success">
+                <label class="control-label" for="selectError">Select with success</label>
+                <div class="controls">
+                  <select id="selectError">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                  <span class="help-inline">Woohoo!</span>
+                </div>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn btn-success">Save changes</button>
+                <button class="btn">Cancel</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <br>
+      <br>
+      <h1 class="headingfull"><span>Extending form controls</span></h1>
+      <div class="sidewidt p10">
+      <div class="row">
+        <div class="span4">
+          <h3>Prepend &amp; append inputs</h3>
+          <p>Input groups&mdash;with appended or prepended text&mdash;provide an easy way to give more context for your inputs. Great examples include the @ sign for Twitter usernames or $ for finances.</p>
+          <hr>
+          <h3>Checkboxes and radios</h3>
+          <p>Up to v1.4, Bootstrap required extra markup around checkboxes and radios to stack them. Now, it's a simple matter of repeating the <code>&lt;label class="checkbox"&gt;</code> that wraps the <code>&lt;input type="checkbox"&gt;</code>.</p>
+          <p>Inline checkboxes and radios are also supported. Just add <code>.inline</code> to any <code>.checkbox</code> or <code>.radio</code> and you're done.</p>
+          <hr>
+          <h4>Inline forms and append/prepend</h4>
+          <p>To use prepend or append inputs in an inline form, be sure to place the <code>.add-on</code> and <code>input</code> on the same line, without spaces.</p>
+          <hr>
+          <h4>Form help text</h4>
+          <p>To add help text for your form inputs, include inline help text with <code>&lt;span class="help-inline"&gt;</code> or a help text block with <code>&lt;p class="help-block"&gt;</code> after the input element.</p>
+        </div>
+        <div class="span7 pull-right">
+          <form class="form-horizontal">
+            <fieldset>
+              <div class="control-group">
+                <label class="control-label">Form grid sizes</label>
+                <div class="controls docs-input-sizes">
+                  <input type="text" class="span1" placeholder=".span1">
+                  <input type="text" class="span2" placeholder=".span2">
+                  <input type="text" class="span3" placeholder=".span3">
+                  <select class="span1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                  <select class="span2">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                  <select class="span3">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                  <p class="help-block">Use the same <code>.span*</code> classes from the grid system for input sizes.</p>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">Alternate sizes</label>
+                <div class="controls docs-input-sizes">
+                  <input type="text" class="input-mini" placeholder=".input-mini">
+                  <input type="text" class="input-small" placeholder=".input-small">
+                  <input type="text" class="input-medium" placeholder=".input-medium">
+                  <p class="help-block">You may also use static classes that don't map to the grid, adapt to the responsive CSS styles, or account for varying types of controls (e.g., <code>input</code> vs. <code>select</code>).</p>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="prependedInput">Prepended text</label>
+                <div class="controls">
+                  <div class="input-prepend">
+                    <span class="add-on">@</span>
+                    <input type="text" class="span2" id="prependedInput" size="16">
+                  </div>
+                  <p class="help-block">Here's some help text</p>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="appendedInput">Appended text</label>
+                <div class="controls">
+                  <div class="input-append">
+                    <input type="text" class="span2" id="appendedInput" size="16">
+                    <span class="add-on">.00</span>
+                  </div>
+                  <span class="help-inline">Here's more help text</span>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="appendedPrependedInput">Append and prepend</label>
+                <div class="controls">
+                  <div class="input-prepend input-append">
+                    <span class="add-on">$</span>
+                    <input type="text" class="span2" id="appendedPrependedInput" size="16">
+                    <span class="add-on">.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="appendedInputButton">Append with button</label>
+                <div class="controls">
+                  <div class="input-append">
+                    <input type="text" class="span2" id="appendedInputButton" size="16">
+                    <button class="btn" type="button">Go!</button>
+                  </div>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="appendedInputButtons">Two-button append</label>
+                <div class="controls">
+                  <div class="input-append">
+                    <input type="text" class="span2" id="appendedInputButtons" size="16">
+                    <button class="btn" type="button">Search</button>
+                    <button class="btn" type="button">Options</button>
+                  </div>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="inlineCheckboxes">Inline checkboxes</label>
+                <div class="controls">
+                  <label class="checkbox inline">
+                    <input type="checkbox" id="inlineCheckbox1" value="option1">
+                    1 </label>
+                  <label class="checkbox inline">
+                    <input type="checkbox" id="inlineCheckbox2" value="option2">
+                    2 </label>
+                  <label class="checkbox inline">
+                    <input type="checkbox" id="inlineCheckbox3" value="option3">
+                    3 </label>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="optionsCheckboxList">Checkboxes</label>
+                <div class="controls">
+                  <label class="checkbox">
+                    <input type="checkbox" name="optionsCheckboxList1" value="option1">
+                    Option one is this and that&mdash;be sure to include why it's great </label>
+                  <label class="checkbox">
+                    <input type="checkbox" name="optionsCheckboxList2" value="option2">
+                    Option two can also be checked and included in form results </label>
+                  <label class="checkbox">
+                    <input type="checkbox" name="optionsCheckboxList3" value="option3">
+                    Option three can&mdash;yes, you guessed it&mdash;also be checked and included in form results </label>
+                  <p class="help-block"><strong>Note:</strong> Labels surround all the options for much larger click areas and a more usable form.</p>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">Radio buttons</label>
+                <div class="controls">
+                  <label class="radio">
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                    Option one is this and that&mdash;be sure to include why it's great </label>
+                  <label class="radio">
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                    Option two can be something else and selecting it will deselect option one </label>
+                </div>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn btn-success">Save changes</button>
+                <button class="btn">Cancel</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <!-- /row -->
+      </div>
+    </section>
+ 	</div>
+    
+</div>
+<!-- Footer Starts-->
+<footer id="footer">
+  <section class="footersocial">
+    <div class="container">
+      <div class="row">
+        <div class="span3 aboutus">
+          <h2>About Us </h2>
+          <p>
+            "At vero eos et accusamus et iusto
+            odio dignissimos ducimus qui
+            blanditiis praesentium voluptatum
+            deleniti atque corrupti quos
+            dolores et quas molestias excepturi
+            sint occaecati cupiditate non
+            provident,
+            <br>
+            <br>similique sunt in culpa qui officia
+            deserunt mollitia animi,</p>
+        </div>
+        <div class="span3 contact">
+          <h2>Contact Us </h2>
+          <ul>
+            <li class="phone">+123 456 7890, +123 456 7890, <br>+123 456 7890</li>
+            <li class="mobile">+123 456 7890, +123 456 7890, <br>+123 456 7890</li>
+            <li class="email">test@test.com <br>test@test.com</li>
+          </ul>
+        </div>
+        <div class="span3 twitter">
+          <h2>Quick Links</h2>
+          <ul class="nav-list categories">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Store Locator </a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms &amp; Conditions </a></li>
+            <li><a href="#">Affiliates</a></li>
+          </ul>
+        </div>
+        <div class="span3 newsletter">
+          <h2>Get in touch </h2>
+          <p><small>Track the latest collections and offers at Winstyle.</small></p>
+          <p><strong>Sign up for our newsletter and get a free Voucher!</strong></p>
+          <div class="fl">
+          <div class="control-group">
+            <form class="form-horizontal">
+              <div class="">
+                <div class="input-prepend">
+                  <input type="text" placeholder="Subscribe to Newsletter" id="inputIcon">
+                  <button value="Subscribe" class="btn btn-success" type="submit">Sign in</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+          <div id="footersocial"> 
+            <a href="#" title="Facebook" class="facebook">Facebook</a>
+            <a href="#" title="Twitter" class="twitter">Twitter</a>
+            <a href="#" title="Linkedin" class="linkedin">Linkedin</a>
+            <a href="#" title="rss" class="rss">rss</a>
+            <a href="#" title="Googleplus" class="googleplus">Googleplus</a>
+            <a href="#" title="Skype" class="skype">Skype</a>
+            <a href="#" title="Flickr" class="flickr">Flickr</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="copyrightbottom">
+    <div class="container">
+      <div class="row">
+        <div class="span6">All rights are copyright to Win Style.</div>
+        <div class="span6 textright">Designed &amp; Developed by Wintech Solution.</div>
+   	 </div>
+    </div>
+  </section> 
+        <a id="gotop" href="#">Back to top</a>
+</footer>
+<div aria-hidden="false" aria-labelledby="myModalLabel"
+role="dialog" tabindex="-1" class="modal hide fade in"
+id="myModal">
+  <div class="modal-header">
+    <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+    <h3 id="myModalLabel">My Cart</h3>
+  </div>
+  <div class="modal-body">
+    <table class="table table-striped">
+      <tbody>
+        <tr>
+          <th class="image">Image</th>
+          <th class="name">Product Name</th>
+          <th class="quantity">Quantity</th>
+          <th class="price">Unit Price</th>
+          <th class="total">Total</th>
+          <th class="quantity">&nbsp;</th>
+        </tr>
+        <tr>
+          <td class="image"><a href="#"><img width="50" height="50" src="images/prodcut-40x40.jpg"  alt="product" title="product"></a>
+          <td class="name"><a href="#">T-Shirt</a></td>
+          <td class="quantity"><input type="text" class="span1" name="quantity[40]" value="1" size="1"></td>
+          <td class="price">$120.68</td>
+          <td class="total">$120.68</td>
+          <td class="quantity"><a href="#"><img alt="" src="images/remove.png" data-original-title="Remove" class="tooltip-test"></a></td>
+        </tr>
+        <tr>
+          <td class="image"><a href="#"><img width="50" height="50" src="images/prodcut-40x40.jpg" alt="product" title="product"></a></td>
+          <td class="name"><a href="#">T-Shirt</a></td>
+          <td class="quantity"><input type="text" class="span1" name="quantity[40]" value="1" size="1"></td>
+          <td class="price">$120.68</td>
+          <td class="total">$120.68</td>
+          <td class="quantity"><a href="#"><img alt="" src="images/remove.png" data-original-title="Remove" class="tooltip-test"></a></td>
+        </tr>
+        <tr>
+          <td class="image"><a href="#"><img width="50" height="50" src="images/prodcut-40x40.jpg" alt="product" title="product"></a></td>
+          <td class="name"><a href="#">T-Shirt</a></td>
+          <td class="quantity"><input type="text" class="span1" name="quantity[40]" value="1" size="1"></td>
+          <td class="price">$120.68</td>
+          <td class="total">$120.68</td>
+          <td class="quantity"><a href="#"><img alt="" src="images/remove.png" data-original-title="Remove" class="tooltip-test"></a></td>
+        </tr>
+        <tr>
+          <td class="image" colspan="6"><h4 class="pull-right margin-none">Total: $2358</h4></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="modal-footer">
+    <button data-dismiss="modal" class="btn">Continue Shoping</button>
+    <button class="btn btn-primary">Place Order</button>
+  </div>
+</div>
+<!-- /maincontainer -->
+
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/google-code-prettify/prettify.js"></script>
+<script src="js/bootstrap-transition.js"></script>
+<script src="js/bootstrap-alert.js"></script>
+<script src="js/bootstrap-modal.js"></script>
+<script src="js/bootstrap-dropdown.js"></script>
+<script src="js/bootstrap-scrollspy.js"></script>
+<script src="js/bootstrap-tab.js"></script>
+<script src="js/bootstrap-tooltip.js"></script>
+<script src="js/bootstrap-popover.js"></script>
+<script src="js/bootstrap-button.js"></script>
+<script src="js/bootstrap-collapse.js"></script>
+<script src="js/bootstrap-carousel.js"></script>
+<script src="js/bootstrap-typeahead.js"></script>
+<script src="js/bootstrap-affix.js"></script>
+<script src="js/application.js"></script>
+<script src="js/respond.min.js"></script>
+<script src="js/cloud-zoom.1.0.2.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+<script defer src="js/custom.js"></script>
+<script type="text/javascript">
+$(window).load(function () {
+  $('#slider').nivoSlider();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+@echo Iniciando Sigep...
+cd sigepcliente
+call sigep.cmd

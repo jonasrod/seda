@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<correioslog>
+	<tipo_arquivo>Postagem</tipo_arquivo>
+	<versao_arquivo>2.3</versao_arquivo>
+	<plp>
+		<id_plp></id_plp>
+		<valor_global></valor_global>
+		<mcu_unidade_postagem></mcu_unidade_postagem>
+		<nome_unidade_postagem></nome_unidade_postagem>
+		<cartao_postagem>0069223467</cartao_postagem>
+	</plp>
+	<remetente>
+		<numero_contrato>9912351440</numero_contrato>
+		<numero_diretoria>74</numero_diretoria>
+		<codigo_administrativo>14201151</codigo_administrativo>
+		<nome_remetente><![CDATA[DIRCE DA SILVA CARDOSO - ME]]>
+		</nome_remetente>
+		<logradouro_remetente><![CDATA[ESTRADA DO BARUEL]]>
+		</logradouro_remetente>
+		<numero_remetente>2840</numero_remetente>
+		<complemento_remetente></complemento_remetente>
+		<bairro_remetente><![CDATA[BARUEL]]></bairro_remetente>
+		<cep_remetente><![CDATA[08653300]]></cep_remetente>
+		<cidade_remetente><![CDATA[SUZANO]]></cidade_remetente>
+		<uf_remetente>SP</uf_remetente>
+		<telefone_remetente>1147511852</telefone_remetente>
+		<fax_remetente><![CDATA[]]></fax_remetente>
+		<email_remetente><![CDATA[SEDA@SEDAEROTICA.COM.BR]]>
+		</email_remetente>
+	</remetente>
+	<forma_pagamento></forma_pagamento>
+	<objeto_postal>
+		<numero_etiqueta>DX29582304 BR</numero_etiqueta>
+		<codigo_objeto_cliente></codigo_objeto_cliente>
+		<codigo_servico_postagem>40096</codigo_servico_postagem>
+		<cubagem></cubagem>
+		<peso>300</peso>
+		<rt1></rt1>
+		<rt2></rt2>
+		<destinatario>
+			<nome_destinatario><![CDATA[Jonas Rodrigues de Oliveira]]>
+			</nome_destinatario>
+			<telefone_destinatario></telefone_destinatario>
+			<celular_destinatario>11998384016</celular_destinatario>
+			<email_destinatario><![CDATA[jonasrod@gmail.com]]>
+			</email_destinatario>
+			<logradouro_destinatario><![CDATA[Rua Silla Nallon Gonzaga]]>
+			</logradouro_destinatario>
+			<complemento_destinatario><![CDATA[AP 27 BL B]]>
+			</complemento_destinatario>
+			<numero_end_destinatario>136</numero_end_destinatario>
+		</destinatario>
+		<nacional>
+			<bairro_destinatario><![CDATA[MARAJOARA]]>
+			</bairro_destinatario>
+			<cidade_destinatario><![CDATA[Santo André]]>
+			</cidade_destinatario>
+			<uf_destinatario>SP</uf_destinatario>
+			<cep_destinatario><![CDATA[09112000]]></cep_destinatario>
+			<codigo_usuario_postal></codigo_usuario_postal>
+			<centro_custo_cliente></centro_custo_cliente>
+			<numero_nota_fiscal></numero_nota_fiscal>
+			<serie_nota_fiscal></serie_nota_fiscal>
+			<valor_nota_fiscal></valor_nota_fiscal>
+			<natureza_nota_fiscal></natureza_nota_fiscal>
+			<descricao_objeto><![CDATA[]]></descricao_objeto>
+			<valor_a_cobrar></valor_a_cobrar>
+		</nacional>
+		<servico_adicional>
+			<codigo_servico_adicional>025</codigo_servico_adicional>
+			<valor_declarado></valor_declarado>
+		</servico_adicional>
+		<dimensao_objeto>
+			<tipo_objeto>001</tipo_objeto>
+			<dimensao_altura>2</dimensao_altura>
+			<dimensao_largura>11</dimensao_largura>
+			<dimensao_comprimento>16</dimensao_comprimento>
+			<dimensao_diametro>0</dimensao_diametro>
+		</dimensao_objeto>
+		<data_postagem_sara></data_postagem_sara>
+		<status_processamento>0</status_processamento>
+		<numero_comprovante_postagem></numero_comprovante_postagem>
+		<valor_cobrado></valor_cobrado>
+	</objeto_postal>
+</correioslog>

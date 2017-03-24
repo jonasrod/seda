@@ -1,0 +1,1 @@
+[24-Oct-2016 15:20:46 America/Sao_Paulo] PHP Fatal error:  Call to a member function bind_param() on boolean in /home/sedaerot/public_html/wcm/view/server/php/index.php on line 49

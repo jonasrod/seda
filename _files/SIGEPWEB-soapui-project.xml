@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project activeEnvironment="Default" name="SIGEPWEB - Rastreamento" soapui-version="5.2.1" abortOnError="false" runType="SEQUENTIAL" id="82f1786c-112c-4239-b32c-09ccb2bc5584" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" name="ServicePortBinding" type="wsdl" bindingName="{http://resource.webservice.correios.com.br/}ServicePortBinding" soapVersion="1_1" anonymous="optional" definition="http://webservice.correios.com.br/service/rastro/Rastro.wsdl" id="58235649-14b1-4cad-a074-d8efc5ee92d0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://webservice.correios.com.br/service/rastro/Rastro.wsdl"><con:part><con:url>http://webservice.correios.com.br/service/rastro/Rastro.wsdl</con:url><con:content><![CDATA[<definitions name="rastro" targetNamespace="http://resource.webservice.correios.com.br/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:tns="http://resource.webservice.correios.com.br/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <types>
+    <xsd:schema>
+      <xsd:import namespace="http://resource.webservice.correios.com.br/" schemaLocation="Rastro_schema1.xsd"/>
+    </xsd:schema>
+  </types>
+  <message name="UnidadesSROResponse">
+    <part name="parameters" element="tns:UnidadesSROResponse"></part>
+  </message>
+  <message name="RastroJsonResponse">
+    <part name="parameters" element="tns:RastroJsonResponse"></part>
+  </message>
+  <message name="ListaEntregaResponse">
+    <part name="parameters" element="tns:ListaEntregaResponse"></part>
+  </message>
+  <message name="buscaEventosLista">
+    <part name="parameters" element="tns:buscaEventosLista"></part>
+  </message>
+  <message name="UnidadesSRO">
+    <part name="parameters" element="tns:UnidadesSRO"></part>
+  </message>
+  <message name="RastroJson">
+    <part name="parameters" element="tns:RastroJson"></part>
+  </message>
+  <message name="buscaEventosResponse">
+    <part name="parameters" element="tns:buscaEventosResponse"></part>
+  </message>
+  <message name="ListaEntrega">
+    <part name="parameters" element="tns:ListaEntrega"></part>
+  </message>
+  <message name="buscaEventos">
+    <part name="parameters" element="tns:buscaEventos"></part>
+  </message>
+  <message name="buscaEventosListaResponse">
+    <part name="parameters" element="tns:buscaEventosListaResponse"></part>
+  </message>
+  <portType name="Service">
+    <operation name="buscaEventos">
+      <input message="tns:buscaEventos" wsam:Action="http://resource.webservice.correios.com.br/Service/buscaEventosRequest"></input>
+      <output message="tns:buscaEventosResponse" wsam:Action="http://resource.webservice.correios.com.br/Service/buscaEventosResponse"></output>
+    </operation>
+    <operation name="buscaEventosLista">
+      <input message="tns:buscaEventosLista" wsam:Action="http://resource.webservice.correios.com.br/Service/buscaEventosListaRequest"></input>
+      <output message="tns:buscaEventosListaResponse" wsam:Action="http://resource.webservice.correios.com.br/Service/buscaEventosListaResponse"></output>
+    </operation>
+    <operation name="RastroJson">
+      <input message="tns:RastroJson" wsam:Action="http://resource.webservice.correios.com.br/Service/RastroJsonRequest"></input>
+      <output message="tns:RastroJsonResponse" wsam:Action="http://resource.webservice.correios.com.br/Service/RastroJsonResponse"></output>
+    </operation>
+    <operation name="ListaEntrega">
+      <input message="tns:ListaEntrega" wsam:Action="http://resource.webservice.correios.com.br/Service/ListaEntregaRequest"></input>
+      <output message="tns:ListaEntregaResponse" wsam:Action="http://resource.webservice.correios.com.br/Service/ListaEntregaResponse"></output>
+    </operation>
+    <operation name="UnidadesSRO">
+      <input message="tns:UnidadesSRO" wsam:Action="http://resource.webservice.correios.com.br/Service/UnidadesSRORequest"></input>
+      <output message="tns:UnidadesSROResponse" wsam:Action="http://resource.webservice.correios.com.br/Service/UnidadesSROResponse"></output>
+    </operation>
+  </portType>
+  <binding name="ServicePortBinding" type="tns:Service">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="buscaEventos">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="buscaEventosLista">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="RastroJson">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="ListaEntrega">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="UnidadesSRO">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="rastro">
+    <port name="ServicePort" binding="tns:ServicePortBinding">
+      <soap:address location="http://webservice.correios.com.br:80/service/rastro"/>
+    </port>
+  </service>
+</definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>http://webservice.correios.com.br/service/rastro/Rastro_schema1.xsd</con:url><con:content><![CDATA[<!--Generated by the JavaTM Architecture for XML Binding(JAXB) Reference Implementation, (build IBM 2.2.3-07/05/2013 05:25 AM(foreman)-) 
+See <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a>-->
+<xs:schema version="1.0" targetNamespace="http://resource.webservice.correios.com.br/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://resource.webservice.correios.com.br/">
+  <xs:element name="ListaEntrega" type="tns:ListaEntrega"/>
+  <xs:element name="ListaEntregaResponse" type="tns:ListaEntregaResponse"/>
+  <xs:element name="RastroJson" type="tns:RastroJson"/>
+  <xs:element name="RastroJsonResponse" type="tns:RastroJsonResponse"/>
+  <xs:element name="UnidadesSRO" type="tns:UnidadesSRO"/>
+  <xs:element name="UnidadesSROResponse" type="tns:UnidadesSROResponse"/>
+  <xs:element name="buscaEventos" type="tns:buscaEventos"/>
+  <xs:element name="buscaEventosLista" type="tns:buscaEventosLista"/>
+  <xs:element name="buscaEventosListaResponse" type="tns:buscaEventosListaResponse"/>
+  <xs:element name="buscaEventosResponse" type="tns:buscaEventosResponse"/>
+  <xs:element name="destino" type="tns:destinos"/>
+  <xs:element name="evento" type="tns:eventos"/>
+  <xs:element name="objeto" type="tns:objeto"/>
+  <xs:element name="rastro" type="tns:sroxml"/>
+  <xs:complexType name="buscaEventosLista">
+    <xs:sequence>
+      <xs:element name="usuario" type="xs:string" minOccurs="0"/>
+      <xs:element name="senha" type="xs:string" minOccurs="0"/>
+      <xs:element name="tipo" type="xs:string" minOccurs="0"/>
+      <xs:element name="resultado" type="xs:string" minOccurs="0"/>
+      <xs:element name="lingua" type="xs:string" minOccurs="0"/>
+      <xs:element name="objetos" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="buscaEventosListaResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:sroxml" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sroxml">
+    <xs:sequence>
+      <xs:element name="versao" type="xs:string" minOccurs="0"/>
+      <xs:element name="qtd" type="xs:string" minOccurs="0"/>
+      <xs:element name="TipoPesquisa" type="xs:string" minOccurs="0"/>
+      <xs:element name="TipoResultado" type="xs:string" minOccurs="0"/>
+      <xs:element ref="tns:objeto" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="objeto">
+    <xs:sequence>
+      <xs:element name="numero" type="xs:string" minOccurs="0"/>
+      <xs:element name="sigla" type="xs:string" minOccurs="0"/>
+      <xs:element name="nome" type="xs:string" minOccurs="0"/>
+      <xs:element name="categoria" type="xs:string" minOccurs="0"/>
+      <xs:element name="erro" type="xs:string" minOccurs="0"/>
+      <xs:element ref="tns:evento" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eventos">
+    <xs:sequence>
+      <xs:element name="tipo" type="xs:string" minOccurs="0"/>
+      <xs:element name="status" type="xs:string" minOccurs="0"/>
+      <xs:element name="data" type="xs:string" minOccurs="0"/>
+      <xs:element name="hora" type="xs:string" minOccurs="0"/>
+      <xs:element name="descricao" type="xs:string" minOccurs="0"/>
+      <xs:element name="detalhe" type="xs:string" minOccurs="0"/>
+      <xs:element name="recebedor" type="xs:string" minOccurs="0"/>
+      <xs:element name="documento" type="xs:string" minOccurs="0"/>
+      <xs:element name="comentario" type="xs:string" minOccurs="0"/>
+      <xs:element name="local" type="xs:string" minOccurs="0"/>
+      <xs:element name="codigo" type="xs:string" minOccurs="0"/>
+      <xs:element name="cidade" type="xs:string" minOccurs="0"/>
+      <xs:element name="uf" type="xs:string" minOccurs="0"/>
+      <xs:element name="sto" type="xs:string" minOccurs="0"/>
+      <xs:element name="amazoncode" type="xs:string" minOccurs="0"/>
+      <xs:element name="amazontimezone" type="xs:string" minOccurs="0"/>
+      <xs:element ref="tns:destino" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="destinos">
+    <xs:sequence>
+      <xs:element name="local" type="xs:string" minOccurs="0"/>
+      <xs:element name="codigo" type="xs:string" minOccurs="0"/>
+      <xs:element name="cidade" type="xs:string" minOccurs="0"/>
+      <xs:element name="bairro" type="xs:string" minOccurs="0"/>
+      <xs:element name="uf" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="buscaEventos">
+    <xs:sequence>
+      <xs:element name="usuario" type="xs:string" minOccurs="0"/>
+      <xs:element name="senha" type="xs:string" minOccurs="0"/>
+      <xs:element name="tipo" type="xs:string" minOccurs="0"/>
+      <xs:element name="resultado" type="xs:string" minOccurs="0"/>
+      <xs:element name="lingua" type="xs:string" minOccurs="0"/>
+      <xs:element name="objetos" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="buscaEventosResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:sroxml" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ListaEntrega">
+    <xs:sequence>
+      <xs:element name="loec" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ListaEntregaResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:listaEntregaExterna" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listaEntregaExterna">
+    <xs:sequence>
+      <xs:element name="carteiro" type="xs:string" minOccurs="0"/>
+      <xs:element name="data" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="distrito" type="xs:string" minOccurs="0"/>
+      <xs:element name="estacao" type="xs:string" minOccurs="0"/>
+      <xs:element name="id" type="xs:string" minOccurs="0"/>
+      <xs:element name="loec" type="xs:string" minOccurs="0"/>
+      <xs:element name="nomeCarteiro" type="xs:string" minOccurs="0"/>
+      <xs:element name="nomeUnidade" type="xs:string" minOccurs="0"/>
+      <xs:element name="objetos" type="tns:objetoPostal" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="unidade" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="objetoPostal">
+    <xs:sequence>
+      <xs:element name="agrupamento" type="xs:string" minOccurs="0"/>
+      <xs:element name="avisoRecebimento" type="xs:string" minOccurs="0"/>
+      <xs:element name="devolucaoDocumento" type="xs:string" minOccurs="0"/>
+      <xs:element name="devolucaoObjeto" type="xs:string" minOccurs="0"/>
+      <xs:element name="maoPropria" type="xs:string" minOccurs="0"/>
+      <xs:element name="numeroObjeto" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RastroJson">
+    <xs:sequence>
+      <xs:element name="usuario" type="xs:string" minOccurs="0"/>
+      <xs:element name="senha" type="xs:string" minOccurs="0"/>
+      <xs:element name="tipo" type="xs:string" minOccurs="0"/>
+      <xs:element name="resultado" type="xs:string" minOccurs="0"/>
+      <xs:element name="lingua" type="xs:string" minOccurs="0"/>
+      <xs:element name="objetos" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RastroJsonResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="UnidadesSRO">
+    <xs:sequence>
+      <xs:element name="codigoSRO" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="UnidadesSROResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:registroUnidades" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="registroUnidades">
+    <xs:sequence>
+      <xs:element name="codigoDR" type="xs:string" minOccurs="0"/>
+      <xs:element name="codigoMCU" type="xs:string" minOccurs="0"/>
+      <xs:element name="codigoSRO" type="xs:string" minOccurs="0"/>
+      <xs:element name="nomeUnidade" type="xs:string" minOccurs="0"/>
+      <xs:element name="siglaDR" type="xs:string" minOccurs="0"/>
+      <xs:element name="siglaTipoUnidade" type="xs:string" minOccurs="0"/>
+      <xs:element name="tipoUnidade" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://webservice.correios.com.br:80/service/rastro</con:endpoint></con:endpoints><con:operation isOneWay="false" action="" name="buscaEventos" bindingOperationName="buscaEventos" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="d3ca6170-3c88-4117-8017-496477f7cbcc"><con:settings/><con:call name="Request 1" id="fdf5b72f-a0e2-4aae-affc-4e3aac137614"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://webservice.correios.com.br:80/service/rastro</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:res="http://resource.webservice.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <res:buscaEventos>
+         <!--Optional:-->
+         <usuario>?</usuario>
+         <!--Optional:-->
+         <senha>?</senha>
+         <!--Optional:-->
+         <tipo>?</tipo>
+         <!--Optional:-->
+         <resultado>?</resultado>
+         <!--Optional:-->
+         <lingua>?</lingua>
+         <!--Optional:-->
+         <objetos>?</objetos>
+      </res:buscaEventos>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://resource.webservice.correios.com.br/Service/buscaEventosRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="buscaEventosLista" bindingOperationName="buscaEventosLista" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="bbc885d9-c28c-49f1-812c-b8917442c24d"><con:settings/><con:call name="Request 1" id="f1d9b1de-f2cf-4492-9405-c176c8e0e7e9"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://webservice.correios.com.br:80/service/rastro</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:res="http://resource.webservice.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <res:buscaEventosLista>
+         <!--Optional:-->
+         <usuario>sedaerotica</usuario>
+         <!--Optional:-->
+         <senha>wuhsrc</senha>
+         <!--Optional:-->
+         <tipo>L</tipo>
+         <!--Optional:-->
+         <resultado>T</resultado>
+         <!--Optional:-->
+         <lingua>101</lingua>
+         <!--Zero or more repetitions:-->
+         <objetos>DG558084776BR</objetos>
+      </res:buscaEventosLista>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://resource.webservice.correios.com.br/Service/buscaEventosListaRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="ListaEntrega" bindingOperationName="ListaEntrega" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="22a39cfd-9206-40ec-82cd-f59492f6b19c"><con:settings/><con:call name="Request 1" id="eb46b432-0461-4c0d-b8ed-90cba1057db1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://webservice.correios.com.br:80/service/rastro</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:res="http://resource.webservice.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <res:ListaEntrega>
+         <!--Optional:-->
+         <loec>?</loec>
+      </res:ListaEntrega>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://resource.webservice.correios.com.br/Service/ListaEntregaRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="RastroJson" bindingOperationName="RastroJson" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="a7a19675-ca3d-41dd-8338-a9cebe49b566"><con:settings/><con:call name="Request 1" id="0edd4469-fdcc-4c01-aa5b-600d9330bb90"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://webservice.correios.com.br:80/service/rastro</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:res="http://resource.webservice.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <res:RastroJson>
+         <!--Optional:-->
+         <usuario>?</usuario>
+         <!--Optional:-->
+         <senha>?</senha>
+         <!--Optional:-->
+         <tipo>?</tipo>
+         <!--Optional:-->
+         <resultado>?</resultado>
+         <!--Optional:-->
+         <lingua>?</lingua>
+         <!--Optional:-->
+         <objetos>?</objetos>
+      </res:RastroJson>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://resource.webservice.correios.com.br/Service/RastroJsonRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="UnidadesSRO" bindingOperationName="UnidadesSRO" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="8df5c2cc-42e0-477f-b71c-9828e8e84cbe"><con:settings/><con:call name="Request 1" id="0399a92b-932c-4212-bb7c-5eeee99c25cc"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://webservice.correios.com.br:80/service/rastro</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:res="http://resource.webservice.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <res:UnidadesSRO>
+         <!--Optional:-->
+         <codigoSRO>?</codigoSRO>
+      </res:UnidadesSRO>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://resource.webservice.correios.com.br/Service/UnidadesSRORequest"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>

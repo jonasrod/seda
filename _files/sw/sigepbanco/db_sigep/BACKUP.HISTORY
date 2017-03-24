@@ -1,0 +1,338 @@
+Fri Dec 04 11:38:15 BRST 2009:Iniciada a c髉ia de seguran鏰 do banco de dados localizado em C:\sigep\banco\db_sigep
+Fri Dec 04 11:38:24 BRST 2009:Completada a c髉ia de seguran鏰 do segmento de dados para C:\sigep\banco\backup\20091204113814\db_sigep\seg0.
+Fri Dec 04 11:38:24 BRST 2009:diret髍io de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\20091204113814\db_sigep\log
+Fri Dec 04 11:38:24 BRST 2009:c髉ia de seguran鏰 conclu韉a, instante do log em (19,554589) 
+
+Thu Feb 11 15:01:09 BRST 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Thu Feb 11 15:01:09 BRST 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Thu Feb 11 15:01:19 BRST 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Thu Feb 11 15:01:19 BRST 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Thu Feb 11 15:01:19 BRST 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Thu Feb 11 15:01:19 BRST 2010:c贸pia de seguran莽a conclu铆da, instante do log em (20,2210) 
+
+Thu Mar 18 15:47:09 BRT 2010:Iniciada a c髉ia de seguran鏰 do banco de dados localizado em C:\sigep\banco\db_sigep
+Thu Mar 18 15:47:09 BRT 2010:c髉ia de seguran鏰 antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Thu Mar 18 15:47:17 BRT 2010:Completada a c髉ia de seguran鏰 do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Thu Mar 18 15:47:17 BRT 2010:diret髍io de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Thu Mar 18 15:47:17 BRT 2010:removida a c髉ia de seguran鏰 antiga em C:\sigep\banco\backup\db_sigep.OLD
+Thu Mar 18 15:47:17 BRT 2010:c髉ia de seguran鏰 conclu韉a, instante do log em (21,468971) 
+
+Thu Mar 18 15:47:51 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Thu Mar 18 15:47:51 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Thu Mar 18 15:47:59 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Thu Mar 18 15:47:59 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Thu Mar 18 15:47:59 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Thu Mar 18 15:47:59 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (21,469606) 
+
+Fri Mar 19 12:30:12 BRT 2010:Iniciada a c髉ia de seguran鏰 do banco de dados localizado em C:\sigep\banco\db_sigep
+Fri Mar 19 12:30:12 BRT 2010:c髉ia de seguran鏰 antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Fri Mar 19 12:30:19 BRT 2010:Completada a c髉ia de seguran鏰 do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Fri Mar 19 12:30:19 BRT 2010:diret髍io de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Fri Mar 19 12:30:20 BRT 2010:removida a c髉ia de seguran鏰 antiga em C:\sigep\banco\backup\db_sigep.OLD
+Fri Mar 19 12:30:20 BRT 2010:c髉ia de seguran鏰 conclu韉a, instante do log em (22,447210) 
+
+Fri Mar 19 13:02:23 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Fri Mar 19 13:02:23 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Fri Mar 19 13:02:33 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Fri Mar 19 13:02:33 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Fri Mar 19 13:03:47 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Fri Mar 19 13:03:47 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Fri Mar 19 13:03:55 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Fri Mar 19 13:03:55 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Fri Mar 19 13:03:55 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Fri Mar 19 13:03:55 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (22,448256) 
+
+Fri Mar 19 13:04:53 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Fri Mar 19 13:04:53 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Fri Mar 19 13:08:19 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Fri Mar 19 13:08:19 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Fri Mar 19 13:08:26 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Fri Mar 19 13:08:26 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Fri Mar 19 13:08:26 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Fri Mar 19 13:08:26 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (22,449506) 
+
+Mon Mar 29 12:53:00 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Mar 29 12:53:00 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 12:53:05 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Mar 29 12:53:05 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Mar 29 12:53:05 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 12:53:05 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (23,36635) 
+
+Mon Mar 29 12:57:19 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Mar 29 12:57:19 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 12:57:23 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Mar 29 12:57:23 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Mar 29 12:57:23 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 12:57:23 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (23,37046) 
+
+Mon Mar 29 14:01:03 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Mar 29 14:01:03 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:01:11 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Mar 29 14:01:11 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Mar 29 14:01:11 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:01:11 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (24,1029106) 
+
+Mon Mar 29 14:01:57 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Mar 29 14:01:57 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:02:06 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Mar 29 14:02:06 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Mar 29 14:02:06 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:02:06 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (25,536668) 
+
+Mon Mar 29 14:02:51 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Mar 29 14:02:51 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:03:00 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Mar 29 14:03:00 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Mar 29 14:03:00 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:03:00 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (25,537079) 
+
+Mon Mar 29 14:03:56 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Mar 29 14:03:56 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:04:05 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Mar 29 14:04:05 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Mar 29 14:04:05 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:04:05 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (25,537490) 
+
+Mon Mar 29 14:04:17 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Mar 29 14:04:17 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:04:26 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Mar 29 14:04:26 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Mar 29 14:04:26 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:04:26 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (25,537901) 
+
+Mon Mar 29 14:04:29 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Mar 29 14:04:29 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:04:38 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Mar 29 14:04:38 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Mar 29 14:04:38 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:04:38 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (25,538312) 
+
+Mon Mar 29 14:04:56 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Mar 29 14:04:56 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:05:04 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Mar 29 14:05:04 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Mar 29 14:05:04 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:05:04 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (25,538723) 
+
+Mon Mar 29 14:06:24 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Mar 29 14:06:24 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:06:33 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Mar 29 14:06:33 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Mar 29 14:06:33 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:06:33 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (25,544393) 
+
+Mon Mar 29 14:09:10 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Mar 29 14:09:10 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:09:19 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Mar 29 14:09:19 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Mar 29 14:09:19 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:09:19 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (25,544804) 
+
+Mon Mar 29 14:10:19 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Mar 29 14:10:19 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:10:27 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Mar 29 14:10:28 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Mar 29 14:10:28 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:10:28 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (25,545215) 
+
+Mon Mar 29 14:14:03 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Mar 29 14:14:03 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:14:11 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Mar 29 14:14:11 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Mar 29 14:14:11 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:14:11 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (26,41029) 
+
+Mon Mar 29 14:24:20 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Mar 29 14:24:20 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:24:29 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Mar 29 14:24:29 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Mar 29 14:24:29 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 14:24:29 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (26,41440) 
+
+Mon Mar 29 17:29:52 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Mar 29 17:29:52 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 17:30:01 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Mar 29 17:30:01 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Mar 29 17:30:01 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Mar 29 17:30:01 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (26,731046) 
+
+Tue Mar 30 15:31:13 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Tue Mar 30 15:31:13 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Tue Mar 30 15:31:22 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Tue Mar 30 15:31:22 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Tue Mar 30 15:31:23 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Tue Mar 30 15:31:23 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (27,247205) 
+
+Tue Mar 30 16:14:34 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Tue Mar 30 16:14:34 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Tue Mar 30 16:14:43 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Tue Mar 30 16:14:43 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Tue Mar 30 16:14:43 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Tue Mar 30 16:14:43 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (27,358829) 
+
+Tue Mar 30 16:14:43 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Tue Mar 30 16:14:43 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Tue Mar 30 16:14:51 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Tue Mar 30 16:14:51 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Tue Mar 30 16:14:51 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Tue Mar 30 16:14:51 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (27,542278) 
+
+Tue Mar 30 16:25:37 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Tue Mar 30 16:25:37 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Tue Mar 30 16:25:47 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Tue Mar 30 16:25:47 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Tue Mar 30 16:25:47 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Tue Mar 30 16:25:47 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (28,363700) 
+
+Wed Mar 31 10:00:04 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Wed Mar 31 10:00:04 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Wed Mar 31 10:00:14 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Wed Mar 31 10:00:14 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Wed Mar 31 10:00:15 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Wed Mar 31 10:00:15 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (29,254738) 
+
+Wed Mar 31 12:11:12 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Wed Mar 31 12:11:12 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Wed Mar 31 12:11:20 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Wed Mar 31 12:11:20 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Wed Mar 31 12:11:20 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Wed Mar 31 12:11:20 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (29,446497) 
+
+Wed Mar 31 12:50:07 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Wed Mar 31 12:50:07 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Wed Mar 31 12:50:13 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Wed Mar 31 12:50:14 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Wed Mar 31 12:50:14 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Wed Mar 31 12:50:14 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (29,447484) 
+
+Wed Mar 31 14:43:19 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Wed Mar 31 14:43:19 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Wed Mar 31 14:43:29 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Wed Mar 31 14:43:30 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Wed Mar 31 14:43:30 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Wed Mar 31 14:43:30 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (30,108435) 
+
+Wed Mar 31 15:00:33 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Wed Mar 31 15:00:33 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Wed Mar 31 15:00:42 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Wed Mar 31 15:00:43 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Wed Mar 31 15:00:43 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Wed Mar 31 15:00:43 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (30,953920) 
+
+Mon Apr 05 13:26:52 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Apr 05 13:26:52 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Apr 05 13:27:02 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Apr 05 13:27:02 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Apr 05 13:27:02 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Apr 05 13:27:02 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (31,39428) 
+
+Thu Apr 08 16:13:15 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Thu Apr 08 16:13:15 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Thu Apr 08 16:13:25 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Thu Apr 08 16:13:25 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Thu Apr 08 16:13:25 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Thu Apr 08 16:13:25 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (32,79362) 
+
+Thu Apr 08 16:27:09 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Thu Apr 08 16:27:17 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\20100408162708\db_sigep\seg0.
+Thu Apr 08 16:27:17 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\20100408162708\db_sigep\log
+Thu Apr 08 16:27:17 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (32,139067) 
+
+Fri Apr 09 15:46:03 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Fri Apr 09 15:46:03 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Fri Apr 09 15:46:13 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Fri Apr 09 15:46:13 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Fri Apr 09 15:46:13 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Fri Apr 09 15:46:13 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (33,34635) 
+
+Mon Apr 12 13:27:17 BRT 2010:Iniciada a c髉ia de seguran鏰 do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Apr 12 13:27:17 BRT 2010:c髉ia de seguran鏰 antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Apr 12 13:27:27 BRT 2010:Completada a c髉ia de seguran鏰 do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Apr 12 13:27:27 BRT 2010:diret髍io de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Apr 12 13:27:28 BRT 2010:removida a c髉ia de seguran鏰 antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Apr 12 13:27:28 BRT 2010:c髉ia de seguran鏰 conclu韉a, instante do log em (33,1012014) 
+
+Mon Apr 12 13:56:36 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Apr 12 13:56:36 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Apr 12 13:56:59 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Apr 12 13:56:59 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Apr 12 13:56:59 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Apr 12 13:56:59 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (33,1012649) 
+
+Wed Apr 14 09:44:07 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Wed Apr 14 09:44:07 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Wed Apr 14 09:44:16 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Wed Apr 14 09:44:17 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Wed Apr 14 09:44:17 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Wed Apr 14 09:44:17 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (35,648632) 
+
+Wed Apr 14 15:37:05 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Wed Apr 14 15:37:05 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Wed Apr 14 15:37:15 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Wed Apr 14 15:37:15 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Wed Apr 14 15:37:15 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Wed Apr 14 15:37:15 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (36,331271) 
+
+Thu Apr 15 09:25:05 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Thu Apr 15 09:25:05 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Thu Apr 15 09:25:15 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Thu Apr 15 09:25:15 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Thu Apr 15 09:25:16 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Thu Apr 15 09:25:16 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (37,295966) 
+
+Thu Apr 15 11:23:23 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Thu Apr 15 11:23:23 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Thu Apr 15 11:23:33 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Thu Apr 15 11:23:33 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Thu Apr 15 11:23:33 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Thu Apr 15 11:23:33 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (38,24077) 
+
+Thu Apr 22 14:01:49 BRT 2010:Iniciada a c髉ia de seguran鏰 do banco de dados localizado em C:\sigep\banco\db_sigep
+Thu Apr 22 14:01:49 BRT 2010:c髉ia de seguran鏰 antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Thu Apr 22 14:01:58 BRT 2010:Completada a c髉ia de seguran鏰 do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Thu Apr 22 14:01:58 BRT 2010:diret髍io de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Thu Apr 22 14:01:59 BRT 2010:removida a c髉ia de seguran鏰 antiga em C:\sigep\banco\backup\db_sigep.OLD
+Thu Apr 22 14:01:59 BRT 2010:c髉ia de seguran鏰 conclu韉a, instante do log em (41,849637) 
+
+Thu Apr 22 14:30:07 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Thu Apr 22 14:30:07 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Thu Apr 22 14:30:33 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Thu Apr 22 14:30:34 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Thu Apr 22 14:30:35 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Thu Apr 22 14:30:35 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (41,850272) 
+
+Mon Apr 26 12:38:00 BRT 2010:Iniciada a c髉ia de seguran鏰 do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Apr 26 12:38:00 BRT 2010:c髉ia de seguran鏰 antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Apr 26 12:38:11 BRT 2010:Completada a c髉ia de seguran鏰 do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Apr 26 12:38:11 BRT 2010:diret髍io de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Apr 26 12:38:11 BRT 2010:removida a c髉ia de seguran鏰 antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Apr 26 12:38:11 BRT 2010:c髉ia de seguran鏰 conclu韉a, instante do log em (43,703857) 
+
+Mon Apr 26 12:38:51 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Apr 26 12:38:51 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Apr 26 12:39:01 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Apr 26 12:39:01 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Apr 26 12:39:01 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Apr 26 12:39:01 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (43,704492) 
+
+Mon Apr 26 13:54:26 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon Apr 26 13:54:26 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon Apr 26 13:54:36 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon Apr 26 13:54:36 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon Apr 26 13:54:36 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon Apr 26 13:54:36 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (44,393681) 
+
+Mon May 10 13:16:07 BRT 2010:Iniciada a c髉ia de seguran鏰 do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon May 10 13:16:07 BRT 2010:c髉ia de seguran鏰 antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon May 10 13:16:14 BRT 2010:Completada a c髉ia de seguran鏰 do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon May 10 13:16:14 BRT 2010:diret髍io de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon May 10 13:16:15 BRT 2010:removida a c髉ia de seguran鏰 antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon May 10 13:16:15 BRT 2010:c髉ia de seguran鏰 conclu韉a, instante do log em (47,163455) 
+
+Mon May 10 13:16:43 BRT 2010:Iniciada a c贸pia de seguran莽a do banco de dados localizado em C:\sigep\banco\db_sigep
+Mon May 10 13:16:43 BRT 2010:c贸pia de seguran莽a antiga movida de C:\sigep\banco\backup\db_sigep para C:\sigep\banco\backup\db_sigep.OLD
+Mon May 10 13:16:52 BRT 2010:Completada a c贸pia de seguran莽a do segmento de dados para C:\sigep\banco\backup\db_sigep\seg0.
+Mon May 10 13:16:52 BRT 2010:diret贸rio de log copiado de C:\sigep\banco\db_sigep\log para C:\sigep\banco\backup\db_sigep\log
+Mon May 10 13:16:52 BRT 2010:removida a c贸pia de seguran莽a antiga em C:\sigep\banco\backup\db_sigep.OLD
+Mon May 10 13:16:52 BRT 2010:c贸pia de seguran莽a conclu铆da, instante do log em (47,164090) 
+
